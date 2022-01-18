@@ -68,7 +68,7 @@ switch(_side) do {
         ctrlShow[2706,false];
         ctrlShow[2710,false];
         ctrlShow[2711,false];
-        if(FETCH_CONST(life_coplevel) < NOV_PARAMS(getNumber,"Nov_BankWithdrawLevelCop")) then {
+        if(FETCH_CONST(life_coplevel) < NOV_PARAMS(getNumber,"nov_bankWithdrawLevelBlufor")) then {
             (CONTROL(2700,2708)) ctrlEnable false;
         };
 
@@ -82,7 +82,7 @@ switch(_side) do {
         ctrlShow[2706,false];
         ctrlShow[2707,false];
         ctrlShow[2708,false];
-        if(FETCH_CONST(life_medicLevel) < NOV_PARAMS(getNumber,"Nov_BankWithdrawLevelInde")) then {
+        if(FETCH_CONST(life_medicLevel) < NOV_PARAMS(getNumber,"nov_bankWithdrawLevelInde")) then {
             (CONTROL(2700,2711)) ctrlEnable false;
         };
         //ctrlsetTex
