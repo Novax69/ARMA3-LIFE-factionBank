@@ -1,0 +1,22 @@
+<!--
+
+    If you want to add languages, you can pull request
+
+-->
+
+        <Key ID="STR_NOV_bankFac_DepositBudgetSuccess">
+            <Original>You have deposited $%1 into your faction bank account</Original>
+            <French>Vous avez déposé €%1 dans le budget de faction</French>
+        </Key>
+        <Key ID="STR_NOV_bankFac_WithdrawBudgetSuccess">
+            <Original>You have withdrawn $%1 from your faction bank account</Original>
+            <French>Vous avez retiré $%1 du budget de faction</French>
+        </Key>
+        <Key ID="STR_NOV_bankFac_InfoNotif">
+            <Original>Your budget transfer !</Original>
+            <French>Votre transfert du budget !</French>
+        </Key>
+        <Key ID="STR_NOV_bankFac_NotEnoughCashBudget">
+            <Original>Not enough cash on budget !</Original>
+            <French>Pas assez d'argent dans le budget !</French>
+        </Key>

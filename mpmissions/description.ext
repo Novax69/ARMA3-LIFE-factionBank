@@ -1,0 +1,10 @@
+// Add if not exist
+class CfgNotifications {
+	class NovInfoMessage { // To add if not Exist
+        title = "%1";
+        iconPicture = "%2";
+        description = "%3";
+        duration = 5;
+        priority = 5;
+    };
+};
